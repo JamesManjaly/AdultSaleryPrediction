@@ -10,6 +10,7 @@ import os
 import numpy as np
 import pandas as pd
 import mlflow
+from sklearn.preprocessing import StandardScaler
 
 TARGET_COL = "salary"
 COLS = ['age', 'workclass', 'education', 'education_num', 'marital_status', 'occupation', 'relationship', 
